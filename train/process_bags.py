@@ -103,7 +103,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input-dir",
         "-i",
-        type=str,
+        type=str,   
         help="path of the datasets with rosbags",
         required=True,
     )
